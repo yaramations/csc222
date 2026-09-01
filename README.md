@@ -1,6 +1,7 @@
-# Hey Jeff! You can 
+# CSC222 Notes and Class
 The following repo is for my CSC222 class and all its assignments!
 
+### Day 1: 09/01/2026
 Class notes
 - Test heavy first quarter
 - First 2 quarters for CPE exam :)
