@@ -1,12 +1,13 @@
 # CSC222 Notes and Class
 The following repo is for my CSC222 class and all its assignments! This README.md has all of my notes from my synchronus lessons.
+<a href="https://openbookproject.net/thinkcs/cpp/index.html">TEXTBOOK LINK</a>
 
 ## Day 1: 09/01/2026
 - Test heavy first quarter
 - First 2 quarters for CPE exam
     - Shows up as 2nd quarter grade
 - Wednesday, January 28th: Final Project Due
-- CPE Exam on December 22
+- CPE Exam on November 3
 
 ## Day 2: 09/03/2026
 - Git
@@ -56,3 +57,10 @@ The following repo is for my CSC222 class and all its assignments! This README.m
         - First evaluates, then (++C not C++)
 - Decrement
     - "cout << ++n << endl;
+
+### Iostream and std
+- Iostream is a library that's used for many important C++ commands
+    - Without iostream, using << or >> wouldn't be possible.
+- using namespace std;
+    - Uses the standard namespace
+    - Without it, "std" would need to be in front of every command

@@ -1,0 +1,1 @@
+// https://openbookproject.net/thinkcs/cpp/exercises/ch02/ch02s00.html
