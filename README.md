@@ -9,6 +9,8 @@ The following repo is for my CSC222 class and all its assignments! This README.m
 - Wednesday, January 28th: Final Project Due
 - CPE Exam on November 3
 
+<hr>
+
 ## Day 2: 09/03/2026
 - Git
     - Distributed, revision controll system
@@ -65,7 +67,9 @@ The following repo is for my CSC222 class and all its assignments! This README.m
     - Uses the standard namespace
     - Without it, "std" would need to be in front of every command
 
-## Day 3: 09/09/2026
+<hr>
+
+## Day> 3: 09/09/2026
 ### Rereading the textbook because that quiz was something...
 It's useful to put comments at the end of a line using "//"
 - Outputing something
@@ -101,3 +105,4 @@ It's useful to put comments at the end of a line using "//"
             - However, the temp variable is still a 5.
         - Pre increment ++n;
             - Only difference is that the value stored by the temp variable is 6.
+    - Decrement --n or n-- removes one, but kinda does the same
