@@ -127,3 +127,20 @@ You can make multiple ints in one line:
 - 3%5 goes in 0 times with a remainder of 3.
 
 <b>*Next class will have a quiz about output formatting*</b>
+
+### Chapter 3 Out of Class Notes (to study for the next quiz)
+Floating Point
+- Use "double"
+    - double pi = 3.14159;
+    - Both declaring the variable and assigning it is called initialization.
+    - <mark>1 and 1.0 are NOT the same thing!</mark>
+        - If you divide integers, you get an integer answer:
+            - double y = 1 / 3; will result in a 0
+        - If you divide floats, you get a float
+            - double y = 1.0 / 3.0; gets 0.33333333
+- Converting Cases
+    - Uses something called a typecast
+        - int x = int(pi);
+            - (Will make a new variable called x and set it to 3)
+        - int x - int(pi)
+            - (Will make a new variable called x and set it to 3)
