@@ -98,7 +98,7 @@ It's useful to put comments at the end of a line using "//"
 ### Reviewing Increment and Decrement because these make no sense
 - Increment: ++n (pre increment) or n++ (post increment)
     - Increase the value of a variable by 1.
-    - Can only be used with modifiable numeric variables <a href="https://www.geeksforgeeks.org/cpp/cpp-increment-and-decrement-operators/">source</a>
+    - Can only be used with modifiable numeric variables <a href="https://www.geeksforgeeks.org/cpp/cpp-increment-and-decrement-operators/">(source)</a>
         - int n = 5;
         - int temp = n++;
             - would output a 6
@@ -106,3 +106,24 @@ It's useful to put comments at the end of a line using "//"
         - Pre increment ++n;
             - Only difference is that the value stored by the temp variable is 6.
     - Decrement --n or n-- removes one, but kinda does the same
+
+### Reviewing the quiz (because I tanked it)
+Truncation
+- Anything less than one will become zero when converting a float to int.
+Comparing a digit and a string will give you a compile error.
+You can make multiple ints in one line:
+- int n =11, m = n++, p = ++n;
+##### Hexadecimal
+- 0x1B
+    - A 1 in the 16 place and a 11 in the ones place
+- To convert:
+    - <a href="https://youtu.be/PBTyxM76dWI?si=AdMOUo_ToUdpxn5d">Watch this video</a>
+##### Octal
+- <a href="https://youtu.be/YCM2JReWS10?si=59SX8Nw0jTFqGiUZ">Watch this video</a>
+##### Binary
+- Based on the power of 2
+#### Modulus Operator (%)
+- Finds the remainder
+- 3%5 goes in 0 times with a remainder of 3.
+
+<b>*Next class will have a quiz about output formatting*</b>
