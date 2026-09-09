@@ -83,3 +83,21 @@ It's useful to put comments at the end of a line using "//"
 - These are all legal:
     1+1    hour-1    hour*60+minute    minute/60
 - Increment and Decrement
+    - Adds one to the current value of an int, char, or double
+    - REVIEW THIS MORE BECAUSE I ACTUALLY DON'T GET IT
+- Composition
+    - cout << 17 * 3;
+        - Multiplies 17 by 3 and then outputs
+    - cout << hour * 60 + minute << endl;
+        - Multiplies the hour by 60 and adds the number of additional minutes (calculates minutes since midnight)
+
+### Reviewing Increment and Decrement because these make no sense
+- Increment: ++n (pre increment) or n++ (post increment)
+    - Increase the value of a variable by 1.
+    - Can only be used with modifiable numeric variables <a href="https://www.geeksforgeeks.org/cpp/cpp-increment-and-decrement-operators/">source</a>
+        - int n = 5;
+        - int temp = n++;
+            - would output a 6
+            - However, the temp variable is still a 5.
+        - Pre increment ++n;
+            - Only difference is that the value stored by the temp variable is 6.
