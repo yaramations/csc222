@@ -64,3 +64,22 @@ The following repo is for my CSC222 class and all its assignments! This README.m
 - using namespace std;
     - Uses the standard namespace
     - Without it, "std" would need to be in front of every command
+
+## Day 3: 09/09/2026
+### Rereading the textbook because that quiz was something...
+It's useful to put comments at the end of a line using "//"
+- Outputing something
+    - You can have multiple output lines, but they will print on new lines.
+    - You can combine different values in a print statement
+        - cout << " and Everything is " << 42 << '.' << endl;
+        - They are converted into a sequence of characters when outputted.
+        - Spaces need to be inside the quote bar.
+- Variable Types
+    - int
+    - double (float numbers)
+    - bool
+    - char (single quotes)
+    - string (double quotes)
+- These are all legal:
+    1+1    hour-1    hour*60+minute    minute/60
+- Increment and Decrement
