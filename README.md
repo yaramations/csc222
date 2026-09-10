@@ -138,9 +138,19 @@ Floating Point
             - double y = 1 / 3; will result in a 0
         - If you divide floats, you get a float
             - double y = 1.0 / 3.0; gets 0.33333333
-- Converting Cases
+- Converting Variables
     - Uses something called a typecast
         - int x = int(pi);
             - (Will make a new variable called x and set it to 3)
         - int x - int(pi)
             - (Will make a new variable called x and set it to 3)
+        - Both are valid yipee!
+- Math Functions
+    - double result = log(17.0);
+        - Sets the result to the logaritm of 17 base e
+    - double angle = 1.5; double height = sin(angle);
+        - Finds the sine of the value of the variable angle.
+    - acos function
+        - Finds pi up to 1t digits
+    - rand()
+        - finds random
