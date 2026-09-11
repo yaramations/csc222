@@ -69,7 +69,7 @@ The following repo is for my CSC222 class and all its assignments! This README.m
 
 <hr>
 
-## Day> 3: 09/09/2026
+## Day 3: 09/09/2026
 ### Rereading the textbook because that quiz was something...
 It's useful to put comments at the end of a line using "//"
 - Outputing something
@@ -161,11 +161,39 @@ Floating Point
         - A float is 32 bits and a double is 64 bits
         - For this class, we should be using double because we're on 64 bit machines
     - When printing multiple lines like so:
-        f();
+        <code>f();
         g();
         h();
-        cout << endl;
+        cout << endl; </code>
         - They don't stack on eachother because it's still one print statement. To have multiple lines, you need two of them.
     - When plugging in a function
-        - In the function, declare your variable in the argument: void print_twice(char phil){}
-        - Invoke the function in the main. You put the variable in the brackets: print_twice('a');
+        - In the function, declare your variable in the argument: <code>void print_twice(char phil){}</code>
+        - Invoke the function in the main. You put the variable in the brackets: <code>print_twice('a');</code>
+
+## Day 4: 09/11/2026
+### Chapter 3 in-class
+- There are two different syntaxes for typecasting
+    - Old C way: <code>int(f)</code>
+    - Modern C++ way:<code>(int)f</code>
+- Libraries
+    - iostream for cin and cout
+    - cmath is the math library for C++
+    - cstdlib is the old C standard library
+- Random
+    - you use rand()
+        - you'll get the same sequence of random numbers unless you change the seed
+        - computers are designed to be predicatble, so true random really can't exist
+        - thus, the computer makes it random by "seeding" the function with something that has entropy to it
+        - Use <code>strand(time(NULL));</code>
+            - you have to take a sampling of something in the world that seems random to get a random value
+- Functions
+    - Every program starts with a fuction named "main"
+        - It's calling the operating system
+    - Other functions are defined before main with "void"
+    - You can pass parameters with a type and a name
+
+### Setw <a href="https://www.geeksforgeeks.org/cpp/setw-function-in-cpp-with-examples/">(source)</a><a href="https://csundergrad.science.uoit.ca/courses/cpp-notes/notes/output-formatting.html">(source2)</a>
+- <code>setw(int n);</code>
+- It's a method that sets the width of a print statement
+    - If I input: <code>  cout << '*' << setw(10) << 2 << '*'<< endl;</code>
+        - Output: <code>*         2*</code>
