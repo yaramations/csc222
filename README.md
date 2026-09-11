@@ -154,8 +154,12 @@ Floating Point
         - Finds pi up to 1t digits
     - rand()
         - finds random
+    #### A note for Jeff
+    Hey Jeff! If you're reading this, I couldn't do the excercises here because I don't actually know how to run C++ code. I've been using the following website: https://cpp.sh/.
     #### Excercises (and questions for Jeff)
     - What is the difference between float and double?
+        - A float is 32 bits and a double is 64 bits
+        - For this class, we should be using double because we're on 64 bit machines
     - When printing multiple lines like so:
         f();
         g();
