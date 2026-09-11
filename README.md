@@ -220,6 +220,22 @@ Input:<code>cout << noboolalpha << "b " << b << endl;
   cout << boolalpha <<  "b " << b << endl; </code>
 Output: <code>b 0
 b false</code>
+#### Other types of print commands
+- <code>showpose</code> and <code>noshowpos</code>
+    - Prints a + next to a number
+- Floating point numbers
+    - Displayed using general, fixed, or scientific format
+    - "Once you pick fixed or scientific format, there is no easy way to rever to general format. You will have to use: <code>cout.unsetf(ios::fixed | ios::scientific);</code>"
+    - ##### setprecision
+        - Used to specify number of digits displayed
+- Setfill
+    - While the default fill is a space, that can be changed
+        - Syntax: <code>setfill('*')</code>
+        - When you setfill and then use a setw command, you get asteriks
+            - Input: <code>cout << "setfill('*'): " << setfill('*');
+    cout << setw(10) << 42 << endl;</code>
+            - Output: <code>setfill('*'): ********42</code>
 
 ### Quiz Review
 - Once you set something to octal, it stays that way until you change it back
+    - (kind of like how if you switch to fixed or scientific for floating points, you can't switch back)
