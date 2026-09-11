@@ -154,3 +154,14 @@ Floating Point
         - Finds pi up to 1t digits
     - rand()
         - finds random
+    #### Excercises (and questions for Jeff)
+    - What is the difference between float and double?
+    - When printing multiple lines like so:
+        f();
+        g();
+        h();
+        cout << endl;
+        - They don't stack on eachother because it's still one print statement. To have multiple lines, you need two of them.
+    - When plugging in a function
+        - In the function, declare your variable in the argument: void print_twice(char phil){}
+        - Invoke the function in the main. You put the variable in the brackets: print_twice('a');
