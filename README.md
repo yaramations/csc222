@@ -197,3 +197,29 @@ Floating Point
 - It's a method that sets the width of a print statement
     - If I input: <code>  cout << '*' << setw(10) << 2 << '*'<< endl;</code>
         - Output: <code>*         2*</code>
+    - Another example
+    - Input: <code>cout << '*' << setw(20) << 2 << '*'<< endl;</code>
+    - Output: <code>*                   2*</code>
+### Justification
+#### Left
+- Input: <code>cout << left;
+  cout << "*" << setw(6) << -23 << "*" << endl;</code>
+  - Output:<code> *-23   *</code>
+#### Right
+- Input: <code>cout << right;
+  cout << "*" << setw(6) << -23 << "*" << endl;</code>
+  - Output: <code>*   -23*</code>
+#### Internal
+- Input: <code>  cout << internal;
+  cout << "*" << setw(6) << -23 << "*" << endl;</code>
+  - Output: <code>*-   23*</code>
+### boolalpha and noboolalpha
+Boolean values print as 0 or 1 by default. boolalpha and noboolalpha determine whether they ger printed as 'false' or 'true' instead.
+Let's set the following: <code>bool b = false;</code>
+Input:<code>cout << noboolalpha << "b " << b << endl;
+  cout << boolalpha <<  "b " << b << endl; </code>
+Output: <code>b 0
+b false</code>
+
+### Quiz Review
+- Once you set something to octal, it stays that way until you change it back
