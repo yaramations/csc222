@@ -236,6 +236,98 @@ b false</code>
     cout << setw(10) << 42 << endl;</code>
             - Output: <code>setfill('*'): ********42</code>
 
-### Quiz Review
+#### Quiz Review
 - Once you set something to octal, it stays that way until you change it back
     - (kind of like how if you switch to fixed or scientific for floating points, you can't switch back)
+
+### Chapter 4: Conditionals and Recursion
+#### Modulus Operator:
+- Helps you find the remainder of a division operation
+    - 5 % 2 = 1
+    - 6 % 4 = 2
+- Modulus operators also work in reverse, but it just gives your the first number?
+    - 3 % 5 = 3
+    - 4 % 8 = 4
+#### Operators
+##### Logical Operators
+- The semantics is very similar to English
+- x > 0 && x < 10
+    - Translation: this is true only if X is greater than zero AND less than 10
+###### 3 Types of Logical Operators
+- AND: &&
+- OR: ||
+- NOT: !
+##### Bitwise Operators
+- They operate on integer types
+- Operands are a sequence of bits
+###### 4 Types of Bitwise Operators
+- AND: &
+    - It becomes 1 if both operated bits are one. Otherwise 0.
+- OR: |
+    - If at least one bit is a 1, then it becomes a 1.
+- XOR: ^
+    - If EXACTLY one bit is a 1, then it becomes a 1.
+- NOT: ~
+    - Inverts the operated bit (0 becomes 1 and 1 becomes 0)
+
+#### Conditionals and Excecution
+- If statement example:
+    <code>if (x > 0) {
+    cout << "x is positive" << endl;}</code>
+    - If the variable x is greater than zero, the code will print out "x is positive."
+- Can include any of the comparison operators
+    - <code>
+    x == y     // x equals y
+    x != y     // x is not equal to y
+    x > y      // x is greater than y
+    x < y      // x is less than y
+    x >= y     // x is greater than or equal to y
+    x <= y     // x is less than or equal to y</code>
+
+##### This stupid error (giving me python flashbacks lol)
+- = is the <b>assignment operator</b>
+- == is the <b>equal sign</b>
+- <s>=< and =>.</s> DO NOT EXIST in C++. = should always be after the "<" or ">" symbol.
+
+#### Boolean Values
+== compares two integers to produce a boolean value
+- Example: <code>if (x == 5) {}</code>
+
+You can put a boolean in the conditional though
+- Example: <code>while (true) {}</code>
+    - This will make a forever loop
+
+##### Bool Variables
+Declared Like so:
+- <code>bool george;</code>
+    - This just created a variable, which can be either "true" or "false"
+Bools can even be made comparisons
+- <code>bool even_flag = (n%2 == 0); </code>
+    - If the expression is true, then the variable even_flag will equal "true"
+Numbers as booleans
+- any nonzero value is always true
+- zero is false
+
+#### The Switch Statement
+- When you want different actions to occur based on variable.
+<code>
+char choice = 'C';
+
+switch (choice) {
+case 'A':
+    cout << "You chose A" << endl;
+    break;
+case 'B':
+    cout << "You chose B" << endl;
+    break;
+case 'C':
+    cout << "You chose C" << endl;
+    break;
+case 'D':
+    cout << "You chose D" << endl;
+    break;
+default:
+    cout << "You didn't make a valid choice" << endl;
+    break;
+}
+</code>
