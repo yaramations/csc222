@@ -13,7 +13,7 @@ The following repo is for my CSC222 class and all its assignments! This README.m
 
 ## Day 2: 09/03/2026
 - Git
-    - Distributed, revision controll system
+    - Distributed, revision control system
     - Good for text files, but not binary files
 - .gitignore
     - Then, put the following to remove binary and mac files:
@@ -161,7 +161,8 @@ Floating Point
         - A float is 32 bits and a double is 64 bits
         - For this class, we should be using double because we're on 64 bit machines
     - When printing multiple lines like so:
-        <code>f();
+        <code>
+        f();
         g();
         h();
         cout << endl; </code>
@@ -331,3 +332,20 @@ default:
     break;
 }
 </code>
+
+#### Return
+- Lets you terminate a function before it even ends
+- Syntax: <code>return;</code>
+
+#### Important vocab
+<b>chaining</b> - A way of joining several conditional statements in sequence.
+<b>infinite recursion</b> - A function that calls itself recursively without ever reaching the base case. Eventually an infinite recursion will cause a run-time error.
+
+## Day 5: 9/15/2026
+- We went over bitwise in class
+- Do these: https://openbookproject.net/thinkcs/cpp/exercises/ch04/ch04s02.html#ch04s02
+    Excercise notes:
+    - Yes, ints and floats can be used together in mathematic operations
+    - unsigned key
+        - modifies int and char
+        - removes negative numbers but lets you access a larger range of positive ones
