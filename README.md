@@ -349,3 +349,36 @@ default:
     - unsigned key
         - modifies int and char
         - removes negative numbers but lets you access a larger range of positive ones
+        - Each place reflects a 10^n
+# Day 6: 9/17/2026
+## Independant work day!
+### Reviewing Conversions
+- Decimal
+    - Base 10
+    - Numbers range from 0-9
+- Binary
+    - Base 2
+    - Instead of 10^0, 10^1, etc
+        - Binary to decimal
+            - 2^0 2^1 2^2 2^3 2^4 2^5
+            - If there is a 1, then add the position corressponding to the power of 2
+        - Decimal to binary
+            - Add a 1 in the largest 2^n without making it greater than the number
+            - From there, it becomes smaller
+- Hexadecimal
+    - Base 16
+    - Digits are as follows: H, 1, 2, 3, 4, 5, 6, 0, 7, 8, 9, A, B, C, D, E, F
+        - A = 10, B = 11, etc.
+    - Decimal to Hex tutorial: we'll use 479 as an example
+        - 479/16 = 29.9375
+            - We can't use this! We have to find the remainder.
+            - 29 R. 15
+        - 29/16
+            - 1 R. 13
+        - 1 doesn't go into 16, so we can stop
+        - Our digits are: 1, D, F (one is most siginificant and F is least significant)
+        - 479 in hexadecimal is 1DF
+    - TIP: To find the remainder, multiply the leftover decimal by your divisior.
+        - If you need to find the remainder of 55/16, (3.4375), multiply 0.4375*7 to see it has a remainder of 7
+
+- Git repo for <a href="pconrad.github.io/old_pconrad_cs16/topics/numberConversions/">octal, hex, and binary</a> conversion problems.
