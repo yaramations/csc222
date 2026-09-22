@@ -380,5 +380,28 @@ default:
         - 479 in hexadecimal is 1DF
     - TIP: To find the remainder, multiply the leftover decimal by your divisior.
         - If you need to find the remainder of 55/16, (3.4375), multiply 0.4375*7 to see it has a remainder of 7
+    - Hex to Decimal: our example here is ABC
+        - We have to find the values
+            - A = 10
+            - B = 11
+            - C = 12
+        - ABC = (10*16^2)+(11*16^1)+(12*16^0)
+        - Then you just add (in this case you get 2748)
+- Octal
+    - Base 8
+    - Decimal to Octal (example is 394)
+        - 394/8 = 49 R. 2
+        - 49/6 = 6 R. 1
+        - 6/8 = 0 R. 6
+        - We go from last to first, so our answer would be: 612
+    - Octal to Decimal (example is 370)
+        - We take the digit and multiply by 8^n
+            - 3*8^2 + 7*8^1 + 0*8^0
+        - Then we add to get 248
 
 - Git repo for <a href="pconrad.github.io/old_pconrad_cs16/topics/numberConversions/">octal, hex, and binary</a> conversion problems.
+- For later me:
+    - https://youtu.be/vLnPwxZdW4Y?si=vR-bj2ojsjiq25cj
+    
+## Day 7: Configuring Your Enviornmnet
+CPATH -> environment variable that speicfies the search path that the proeprocessor uses to look for
