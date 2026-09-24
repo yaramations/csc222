@@ -398,10 +398,26 @@ default:
         - We take the digit and multiply by 8^n
             - 3*8^2 + 7*8^1 + 0*8^0
         - Then we add to get 248
+    - <b>Fun fact: Octal can't go higher than 255 </b>
 
 - Git repo for <a href="pconrad.github.io/old_pconrad_cs16/topics/numberConversions/">octal, hex, and binary</a> conversion problems.
 - For later me:
     - https://youtu.be/vLnPwxZdW4Y?si=vR-bj2ojsjiq25cj
     
-## Day 7: Configuring Your Enviornmnet
+# Day 7: 9/22/2026
 CPATH -> environment variable that speicfies the search path that the proeprocessor uses to look for
+- It's what we use to find our doctest code in our IDE
+
+# Day 8: 9/24/2026
+- Source directory and build directory
+    - Build directory in gitignore
+- Questions
+    - I actually couldn't get doctest working, how do I connect the doctest code to my repo?
+    - What's the difference between int f(){} void main(){} and int main(){}?
+    - What's with the function on the back of the quiz?
+        - 128 is for highest order byte
+        - Moving that bit one place (removing the mask)
+        - The reason why <code>if (mask == 16) cout << '';</code> is for output formatting (putting in the nibbles)
+            - Separates first four bits from 2nd four bits (for example: 0000 0000)
+    - If it's octal, is there a zero in front of it in the output?
+- Git repo grade so do the doctests!
