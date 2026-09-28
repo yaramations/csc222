@@ -350,9 +350,9 @@ default:
         - modifies int and char
         - removes negative numbers but lets you access a larger range of positive ones
         - Each place reflects a 10^n
-# Day 6: 9/17/2026
-## Independant work day!
-### Reviewing Conversions
+## Day 6: 9/17/2026
+### Independant work day!
+#### Reviewing Conversions
 - Decimal
     - Base 10
     - Numbers range from 0-9
@@ -404,11 +404,11 @@ default:
 - For later me:
     - https://youtu.be/vLnPwxZdW4Y?si=vR-bj2ojsjiq25cj
     
-# Day 7: 9/22/2026
+## Day 7: 9/22/2026
 CPATH -> environment variable that speicfies the search path that the proeprocessor uses to look for
 - It's what we use to find our doctest code in our IDE
 
-# Day 8: 9/24/2026
+## Day 8: 9/24/2026
 - Source directory and build directory
     - Build directory in gitignore
 - Questions
@@ -421,3 +421,20 @@ CPATH -> environment variable that speicfies the search path that the proeproces
             - Separates first four bits from 2nd four bits (for example: 0000 0000)
     - If it's octal, is there a zero in front of it in the output?
 - Git repo grade so do the doctests!
+
+## Day 9: 9/28/2026
+(It's test-driven development, baby!)
+
+### What do you do in a doctest before compiling?
+- You can intentionally fail a doctest (you never write code unless you have a failing test)
+    - You have to write a function for your doctest or else there will be a compiling error
+    - When you botch it, you have to write one test (usually just return one)
+- After you write a failing test, commit so it's there
+
+### Actually Making the Doctest Pass
+- You can slime it
+    - (FACT CHECK THIS) <s><code>return 0;</code> will allow it to pass the doctest</s>
+### Ternary Operators
+- A simple way to write if else statements
+- The formula: <code>condition ? expression_if_true : expression_if_false;</code>
+    - <code>largest = (d > largest) ? d : largest;</code>
