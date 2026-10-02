@@ -2,10 +2,6 @@
 #include <doctest.h>
 using namespace std;
 
-return 0;
-// I forgot to make a failing case before working on the problem, sorry!
-
-/*
 int find_largest(int a, int b){
 	if(a > b || a == b){
 	return a;
@@ -14,7 +10,6 @@ int find_largest(int a, int b){
 	return b;
 	}
 }
-*/
 
 TEST_CASE("find_largest returns the greater of two integers") {
     CHECK(find_largest(6, 19) == 19);
