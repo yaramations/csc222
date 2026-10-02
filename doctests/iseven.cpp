@@ -4,12 +4,12 @@ using namespace std;
 
 // Your function goes here
 
-bool is_even value(int x)  {
+bool is_even(int x)  {
 	if(x % 2 == 0) {
-		return: true;
+		return true;
 	}
 	else{
-		return false;
+		return  false;
 	}
 }
 
