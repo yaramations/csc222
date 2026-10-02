@@ -2,8 +2,13 @@
 #include <doctest.h>
 using namespace std;
 
-int sum_to_n(int x){
-	return x;
+int sum_to_n(int n){
+
+	while (n>0){
+		int n += int total;	
+		int n = int n-1;
+	}	
+	return int total;
 }
 
 
